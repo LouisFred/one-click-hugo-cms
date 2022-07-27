@@ -1,0 +1,50 @@
+# Languages
+#   Create a section for each of your site's languages.
+#   Documentation: https://wowchemy.com/docs/guide/language/
+
+# Default language
+en:
+  languageCode: en-us
+  title: Lee Lab
+  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  contentDir: content/en
+
+ja:
+  languageCode: ja-jp
+  contentDir: content/ja
+  title: 李研究室・感性デザイン
+  params:
+    description: 筑波大学・感性デザイン
+  menu:
+    main:
+      - name: ホーム
+        url: '#news'
+        weight: 10
+      - name: イベント
+        url: '#events'
+        weight: 20
+      - name: メンバー
+        url: '#people'
+        weight: 35
+      - name: プロジェクト
+        url: '#projects'
+        weight: 30
+      - name: 論文
+        url: '#featured'
+        weight: 40
+      - name: 問い合わせ
+        url: '#contact'
+        weight: 60
+
+# Uncomment the lines below to configure your website in a second language.
+#zh:
+#  languageCode: zh-Hans
+#  contentDir: content/zh
+#  title: Chinese website title...
+#  params:
+#    description: Site description in Chinese...
+#  menu:
+#    main:
+#      - name: 传
+#        url: '#about'
+#        weight: 1
